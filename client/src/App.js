@@ -12,7 +12,7 @@ function App() {
       <Header />
       <div className="middle">
         <FilterBar />
-        <div>
+        <div className="middle-stuff">
           <div className="hero-stuff">
             <Hero />
           </div>

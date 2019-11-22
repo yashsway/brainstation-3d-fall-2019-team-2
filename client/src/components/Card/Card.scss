@@ -4,6 +4,7 @@
   border-radius: 5px;
   background: slategray;
   padding: 20px;
+  margin: 0 auto;
 }
 
 .img {
@@ -16,4 +17,8 @@
 
 .card__comment {
   color: white;
+}
+
+.card-img {
+  width: 20px;
 }
