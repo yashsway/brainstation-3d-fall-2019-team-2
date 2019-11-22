@@ -1,0 +1,19 @@
+@import '../../styles/reset.scss';
+@import '../../styles/utils/base';
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(6, 138, 182);
+  padding: 20px;
+  margin-top: 30px;
+
+  &__link {
+    color: white;
+  }
+
+  &__logo {
+    color: white;
+  }
+}

@@ -2,11 +2,9 @@ import React from 'react';
 import './App.scss';
 import Header from './components/Header/Header';
 import Trending from './components/Trending/Trending';
-
 import Hero from './components/Hero/Hero'
-
-
 import FilterBar from './components/FilterBar/FilterBar'
+import Footer from './components/Footer/Footer'
 
 function App() {
   return (
@@ -14,7 +12,7 @@ function App() {
       <Header />
       <div className="middle">
         <FilterBar />
-        <div>
+        <div className="middle-stuff">
           <div className="hero-stuff">
             <Hero />
           </div>
@@ -23,6 +21,7 @@ function App() {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }
