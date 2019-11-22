@@ -1,0 +1,22 @@
+@import '../../styles/reset.scss';
+@import '../../styles/utils/base';
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: lightgrey;
+  padding: 20px;
+
+  &__logo {
+    border-radius: 4px;
+  }
+
+  &__link {
+    padding: 20px;
+    background-color: grey;
+    width: 8%;
+    border-radius: 4px;
+    text-align: center;
+  }
+}
