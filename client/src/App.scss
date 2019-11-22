@@ -1,3 +1,6 @@
 // import the base SCSS mixins, variables etc for use in all your components
 @import './styles/utils/base';
 
+.middle {
+    display: flex;
+}

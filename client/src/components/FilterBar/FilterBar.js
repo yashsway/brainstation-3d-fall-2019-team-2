@@ -1,25 +1,29 @@
 import React from 'react';
 import './FilterBar.scss';
 
-
 class FilterBar extends React.Component {
 
   render() {
     return(
       <section className="filters">
-        <select name="categories" id="categories">
-          <option value="">Category</option>
-          <option value="Something">Something</option>
+        <select name="categories" id="categories" className="dropdown">
+          <option value="">-- Category --</option>
+          <option value="five">5-7 Minute Read</option>
+          <option value="ten-plus">10+ Minute Read</option>
         </select>
-        <select name="length" id="length">
-          <option value="">Length of Article</option>
+        <select name="length" id="length" className="dropdown">
+          <option value="">-- Length of Article --</option>
+          <option value="recent">Most Recent</option>
+          <option value="least">Least Recent</option>
         </select>
-        <select name="format" id="format">
-          <option value="">Format of Content</option>
+        <select name="format" id="format" className="dropdown">
+          <option value="">-- Number of Shares --</option>
+          <option value="highest">Highest</option>
+          <option value="lowest">Lowest</option>
         </select>
-        <select name="sort" id="sort">
-          <option value="">Sort</option>
-          </select>
+        <div className="filters__bottom">
+          <button id="button">Filter</button>
+        </div>
       </section>
     )
   }

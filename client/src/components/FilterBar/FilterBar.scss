@@ -2,11 +2,23 @@
 @import '../../styles/utils/base';
 
 .filters {
-    width: 20%;
+    width: 15%;
+    height: 500px;
     display: flex;
     flex-direction: column;
     padding: 10px;
     background-color: darkgrey;
 
+    .dropdown {
+        border-radius: 4px;
+    }
+
+    &__bottom {
+        display: flex;
+        justify-content: flex-end;
+    }
+    #button {
+        border-radius: 4px;
+    }
 
 }
