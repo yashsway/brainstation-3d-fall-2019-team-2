@@ -11,14 +11,10 @@ function App() {
           Add any meta tags you want, or any tag you want to go in the header. 
           You can modify everything else! */}
       <Helmet>
-        <title>Your App Title Here</title>
+        <title>Running Title</title>
       </Helmet>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <h2>Brainstation 3D Starter</h2>
+        
       </header>
     </div>
   );
