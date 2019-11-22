@@ -15,8 +15,12 @@ function App() {
       <div className="middle">
         <FilterBar />
         <div>
+          <div>
           <Hero />
+          </div>
+          <div className="app-trending">
           <Trending />
+          </div>
         </div>
       </div>
     </>
