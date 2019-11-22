@@ -15,7 +15,7 @@ function App() {
       <div className="middle">
         <FilterBar />
         <div>
-          <div>
+          <div className="hero">
           <Hero />
           </div>
           <div className="app-trending">

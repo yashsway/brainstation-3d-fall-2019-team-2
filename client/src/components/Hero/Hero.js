@@ -4,22 +4,28 @@ import './Hero.scss'
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-import logo from "../../assets/logo.png"
+import companiesPic from "../../assets/companies-that-offer.png";
+import shutter from "../../assets/shutterstock.jpg";
+import screenShot from "../../assets/screenShot.png"
 
 class Hero extends React.Component {
 
     render() {
         return(
             <section className="hero">
-                <article>
-                    <p>This shows some data</p>
-                </article>
                 <Carousel>
                     <div>
-                        <img className="picture" src={logo} alt="logo" />
+                        <img className="picture" src={companiesPic} alt="companies" />
+                        <p className="p-tag">Education company Chegg is helping pay down its employees’ student loan debt</p>
+                        <p>seijas</p>
                     </div>
                     <div>
-                        <img src={logo} alt="logo" />
+                        <img src={shutter} alt="shutter" />
+                        <p className="p-tag">This 1 Thing Could Change The Way You Pay Off Student Loans</p>
+                    </div>
+                    <div>
+                        <img src={screenShot} alt="screens" />
+                        <p className="p-tag">Networking Tips for Graduate Students</p>
                     </div>
                 </Carousel>
             </section>
