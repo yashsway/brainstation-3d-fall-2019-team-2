@@ -4,7 +4,13 @@ import Card from '../Card/Card';
 
 class Trending extends React.Component {
 
-  render() { 
+  
+
+  render() {
+    
+
+    
+
     return (
       <div className="trending">
         <h1>Trending This Week</h1>
