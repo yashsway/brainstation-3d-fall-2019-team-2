@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.scss';
 import Header from './components/Header/Header';
+import Trending from './components/Trending/Trending';
+
 import Hero from './components/Hero/Hero'
 
 
@@ -12,7 +14,14 @@ function App() {
       <Header />
       <div className="middle">
         <FilterBar />
-        <Hero />
+        <div>
+          <div>
+          <Hero />
+          </div>
+          <div className="app-trending">
+          <Trending />
+          </div>
+        </div>
       </div>
     </>
   );
