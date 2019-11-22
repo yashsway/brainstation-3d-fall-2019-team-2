@@ -12,7 +12,7 @@ class Header extends React.Component {
         <div className="header__link2 header__link">SOCIAL MEDIA</div>
         <div className="header__link3 header__link">TECHNOLOGY</div>
         <div className="header__link4 header__link">BUSINESS</div>
-        <div className="header__link5 header__link">GRAD 101</div>
+        <div className="header__link5 header__link">CAREERS</div>
         <img src={search} className="header__search" alt=""/>
       </div>
     );
