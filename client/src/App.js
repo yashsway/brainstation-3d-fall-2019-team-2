@@ -3,6 +3,8 @@ import './App.scss';
 
 import { Helmet } from 'react-helmet';
 
+import FilterBar from '../src/FilterBar/FilterBar'
+
 function App() {
   return (
     <div className="App">
@@ -15,6 +17,7 @@ function App() {
       <header className="App-header">
         <h1>NEW GRADS AND ONLINE NEWS</h1>
       </header>
+      <FilterBar />
     </div>
   );
 }
