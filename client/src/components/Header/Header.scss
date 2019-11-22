@@ -5,18 +5,27 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: lightgrey;
+  background-color: rgb(6, 138, 182);
   padding: 20px;
 
   &__logo {
-    border-radius: 4px;
+    font-size: 2.5rem;
+    color: white;
+  }
+
+  &__search {
+    color: white;
   }
 
   &__link {
-    padding: 20px;
-    background-color: grey;
     width: 8%;
     border-radius: 4px;
     text-align: center;
+    color: white;
+    font-weight: bold;
+  }
+
+  &__link:hover {
+    color: darkcyan;
   }
 }

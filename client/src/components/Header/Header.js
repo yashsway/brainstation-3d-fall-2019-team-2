@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../assets/logo.png';
+import search from '../../assets/search.svg';
 import './Header.scss';
 
 class Header extends React.Component {
@@ -7,14 +7,13 @@ class Header extends React.Component {
   render() { 
     return (
       <div className="header">
-        <img src={logo} alt="" className="header__logo"/>
-        <div className="header__link1 header__link">Lifestyle</div>
-        <div className="header__link2 header__link">Social Media</div>
-        <div className="header__link3 header__link">Tech</div>
-        <div className="header__link4 header__link">bleepbloop</div>
-        <div className="header__link5 header__link">bleepbloop</div>
-        <div className="header__link6 header__link">bleepbloop</div>
-        <div className="header__link7 header__link">bleepbloop</div>
+        <div className="header__logo">OPEN DOOR</div>
+        <div className="header__link1 header__link">LIFESTYLE</div>
+        <div className="header__link2 header__link">SOCIAL MEDIA</div>
+        <div className="header__link3 header__link">TECHNOLOGY</div>
+        <div className="header__link4 header__link">BUSINESS</div>
+        <div className="header__link5 header__link">GRAD 101</div>
+        <img src={search} className="header__search" alt=""/>
       </div>
     );
   }
