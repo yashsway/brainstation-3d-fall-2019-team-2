@@ -2,11 +2,15 @@
 @import '../../styles/utils/base';
 
 .hero {
-    width: 300px;
-    height: 100px;
+    width: 550px;
+    // height: 200px;
     display: flex;
 
     .picture {
         max-width: 100%;
+    }
+
+    .p-tag {
+        color: white;
     }
 }
